@@ -68,17 +68,17 @@ section.full-banner {
     }
 }
 
-::selection {
+::selection { //pseudo classe pra quando selecionar alguma palavra na página fica selecionada em amarelo
     background: #ffe45c;
     color: #242424;
 }
 
-button.disabled {
+button.disabled {  //o botão fica sem o fundo amarelo, fica transparente
     background: none;
     border: solid 0.5px rgba(36,36,36,0.8);
 }
 
-button.disabled:hover {  //ao passar o mouse por cima do botão
+button.disabled:hover {  //hover ao passar o mouse por cima do botão, fica com fundo sombreado
     background: rgba(36,36,36,0.2);
 }
 
